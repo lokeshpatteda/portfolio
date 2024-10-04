@@ -218,10 +218,7 @@ ul li                       {margin: 0; padding: 0; list-style: none;}
     .dived                      {border: 0 !important;}
     .header-right > .divied     {display: none;}
     .profile-dis                {margin-top: 25px;}
-    .profile-dis p {font-size: 16px;}
-    .profile-dis h5 { font-size: 16px !important;}
-    .profile-dis h1 { font-size: 35px !important;}
-    .profile-dis h3 { font-size: 25px !important;}
+
 
     .Project-container      {margin-top: 85px;}
     .Project-profile        {top: -75px; right: 20%;}
@@ -238,10 +235,10 @@ ul li                       {margin: 0; padding: 0; list-style: none;}
 
  @media screen and (max-width:768px) { 
  .bg-shine                  { left: 75px;}
-.profile-dis h3             {font-size: 28px !important;}
-.profile-dis h1             {font-size: 35px !important;}
-.profile-dis h5             {font-size: 15px !important;}
-.profile-dis p              {font-size: 13px; }
+ .profile-dis p {font-size: 16px !important;;}
+ .profile-dis h5 { font-size: 16px !important;}
+ .profile-dis h1 { font-size: 35px !important;}
+ .profile-dis h3 { font-size: 25px !important;}
 .phone                      {margin-bottom: 10px;}
 .contact .phone button      { width: 259px;text-align: left;}
   }
