@@ -115,7 +115,7 @@ const sendEmail = (e) => {
             // show message and add color, window + dot to open emoji
 
             errorMessage.classList.add('color-first');
-            errorMessage.innerHTML ='<i class="fa-solid fa-circle-check"></i> Message sent  ';
+            errorMessage.innerHTML ='<i class="fa-solid fa-circle-check"></i> Message sent, Thank you for choosing me ';
             // remove message after 5 seconds
 
             setTimeout(() => {
