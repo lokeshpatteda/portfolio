@@ -212,9 +212,9 @@ ul li                       {margin: 0; padding: 0; list-style: none;}
     .educ-map                   {display: none;}
     .map-middel                 {margin-left: 0;padding: 0px 20px;  margin-top: 66px;}
     .divider                    {height: 430px;}
-    .contact                     {display: flex; white-space: nowrap; text-align: center;}
-    .contact button              {font-size: 14px !important; margin-right: 2px !important;}
-    .contact .phone button      {width: 235px;margin-bottom: 10px; text-align: left;} 
+    .contact                    {display: flex; white-space: nowrap; text-align: center;}
+    .contact button             {margin-right: 2px !important;}
+    .contact .phone button      {width: 263px !important; margin-top: 0; text-align: left;} 
     .dived                      {border: 0 !important;}
     .header-right > .divied     {display: none;}
     .profile-dis                {margin-top: 25px;}
@@ -227,10 +227,21 @@ ul li                       {margin: 0; padding: 0; list-style: none;}
     .Project-profile        {top: -75px; right: 20%;}
     .glass                  {margin: 0px;}
     .Project-dis            {padding-left: 15px; padding-top: 140px;}
-    .bg-shine               {  top: -27px; left: 58px;}
+    .bg-shine               { top: -27px; left: 58px !important;}
     .project-table td       {white-space: nowrap; font-size: 14px;} 
     .wraping                {white-space: normal !important;}
-    .heading img            { height: 45px;}
+    .heading img            { height: 45px;}}
+
  @media screen and (max-width:1200px)  {
   .progressbar            {margin-bottom: 30px;}
  }
+
+ @media screen and (max-width:768px) { 
+ .bg-shine                  { left: 75px;}
+.profile-dis h3             {font-size: 28px !important;}
+.profile-dis h1             {font-size: 35px !important;}
+.profile-dis h5             {font-size: 15px !important;}
+.profile-dis p              {font-size: 13px; }
+.phone                      {margin-bottom: 10px;}
+.contact .phone button      { width: 259px;text-align: left;}
+  }
