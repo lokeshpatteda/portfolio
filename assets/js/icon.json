@@ -1,0 +1,148 @@
+{
+    "iconsimg": [
+        {
+            "name": "Ambulance",
+            "image": "./assets/icons/AMBUL.png"
+        },
+        {
+            "name": "Appointment",
+            "image": "./assets/icons/APMNTS.png"
+        },
+        {
+            "name": "Boxpacking",
+            "image": "./assets/icons/BKPKG.png"
+        },
+        {
+            "name": "Apple",
+            "image": "./assets/icons/DIET.png"
+        },
+        {
+            "name": "Emergency",
+            "image": "./assets/icons/EMRGNCY.png"
+        },
+        {
+            "name": "Nurse",
+            "image": "./assets/icons/NURSING.png"
+        },
+        {
+            "name": "Pharmacy",
+            "image": "./assets/icons/PHARM.png"
+        },
+        {
+            "name": "Physiotherapy",
+            "image": "./assets/icons/PHYSIO.png"
+        },
+        {
+            "name": "Laboratory",
+            "image": "./assets/icons/LABS.png"
+        },
+        {
+            "name": "Female",
+            "image": "./assets/icons/Adult-female.png"
+        },
+        {
+            "name": "Male",
+            "image": "./assets/icons/Adult-male.png"
+        },
+        {
+            "name": "Baby",
+            "image": "./assets/icons/baby.png"
+        },
+        {
+            "name": "Doctor",
+            "image": "./assets/icons/doctor.png"
+        },
+        {
+            "name": "Female Avatar ",
+            "image": "./assets/icons/female.png"
+        },
+        {
+            "name": "Male Avatar",
+            "image": "./assets/icons/male.png"
+        },
+        {
+            "name": "Gauge",
+            "image": "./assets/icons/Gauge.png"
+        },
+        {
+            "name": "Pie",
+            "image": "./assets/icons/Pie.png"
+        },
+        {
+            "name": "Line",
+            "image": "./assets/icons/Line.png"
+        },
+        {
+            "name": "Bar",
+            "image": "./assets/icons/bar.png"
+        },
+        {
+            "name": "Area",
+            "image": "./assets/icons/Area.png"
+        },
+        {
+            "name": "Morning",
+            "image": "./assets/icons/morning-day.png"
+        },
+        {
+            "name": "Day",
+            "image": "./assets/icons/day.png"
+        },
+        {
+            "name": "Night",
+            "image": "./assets/icons/night.png"
+        },
+        {
+            "name": "Bell",
+            "image": "./assets/icons/BELL.png"
+        },
+        {
+            "name": "Book",
+            "image": "./assets/icons/BOOK.png"
+        },
+        {
+            "name": "Bulb",
+            "image": "./assets/icons/BULB.png"
+        },
+        {
+            "name": "Calculator",
+            "image": "./assets/icons/CALC.png"
+        },
+        {
+            "name": "Education",
+            "image": "./assets/icons/CAP.png"
+        },
+        {
+            "name": "Chemistry",
+            "image": "./assets/icons/CHEM.png"
+        },
+        {
+            "name": "React",
+            "image": "./assets/icons/CHY.png"
+        },
+        {
+            "name": "Calendar",
+            "image": "./assets/icons/CLAN.png"
+        },
+        {
+            "name": "Class",
+            "image": "./assets/icons/CLASS.png"
+        },
+        {
+            "name": "Lab",
+            "image": "./assets/icons/LAB.png"
+        },
+        {
+            "name": "Cup",
+            "image": "./assets/icons/CUP.png"
+        },
+        {
+            "name": "Lamp",
+            "image": "./assets/icons/LIT.png"
+        },
+        {
+            "name": "System",
+            "image": "./assets/icons/SYS.png"
+        }
+    ]
+}
