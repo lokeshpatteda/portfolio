@@ -207,13 +207,14 @@ ul li                       {margin: 0; padding: 0; list-style: none;}
      body                       {background-size: auto !important;}
     .card-style img.md-view     {height: 341px;}
     .header                     {display: block;}
-    .header-right               {justify-content: space-between;}
+    .header-right               {justify-content: space-between; padding-top: 10px; border-top: 1px solid #2c1e1e; margin-top: 5px;}
     .mobile-educ                {display: block;}    
     .educ-map                   {display: none;}
     .map-middel                 {margin-left: 0;padding: 0px 20px;  margin-top: 66px;}
     .divider                    {height: 430px;}
-    .contact                     {display: flex; white-space: nowrap;}
-    .contact button             {font-size: 14px !important; margin-right: 2px !important;}
+    .contact                     {display: flex; white-space: nowrap; text-align: center;}
+    .contact button              {font-size: 14px !important; margin-right: 2px !important;}
+    .contact .phone button      {width: 235px;margin-bottom: 10px; text-align: left;} 
     .dived                      {border: 0 !important;}
     .header-right > .divied     {display: none;}
     .profile-dis                {margin-top: 25px;}
@@ -226,8 +227,10 @@ ul li                       {margin: 0; padding: 0; list-style: none;}
     .Project-profile        {top: -75px; right: 20%;}
     .glass                  {margin: 0px;}
     .Project-dis            {padding-left: 15px; padding-top: 140px;}
-    .bg-shine               {  top: -27px; left: 80px;}
-    
+    .bg-shine               {  top: -27px; left: 58px;}
+    .project-table td       {white-space: nowrap; font-size: 14px;} 
+    .wraping                {white-space: normal !important;}
+    .heading img            { height: 45px;}
  @media screen and (max-width:1200px)  {
   .progressbar            {margin-bottom: 30px;}
  }
