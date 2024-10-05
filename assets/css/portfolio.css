@@ -75,13 +75,15 @@ ul li                       {margin: 0; padding: 0; list-style: none;}
 
                             @keyframes border-dance {
                                 0% {
-                                    background-position: 300px 0px, 0px 116px, 0px 0px, 216px 150px;
+                                  background-position: 0px 0px, 300px 116px, 0px 150px, 216px 0px;
+                                   
                                 }
                                 100% {
                                 
-                                background-position: 0px 0px, 300px 116px, 0px 150px, 216px 0px;
+                                  background-position: 300px 0px, 0px 116px, 0px 0px, 216px 150px;
                                 }
                             }
+
 
  .edu-flag                   {height: 40px; /*transform: scaleX(-1)*/;}
  .edu-right > div            {margin: 20px 0px; font-size: 11px;}  
@@ -100,6 +102,15 @@ ul li                       {margin: 0; padding: 0; list-style: none;}
  .card-style:hover .card-show { transition: all .5s; transform : translateY(-152px)}
 
  .modal-title                 {color: #036185;}
+
+
+.fa-download                {-webkit-animation: bounce .5s ease infinite alternate;}
+ 
+@-webkit-keyframes bounce {
+  100% {
+    transform:translateY(-5px);
+  }
+}
 
 
  .Project-profile              {position: absolute; top:25%; width: 200px; height: 200px; border-radius: 100%; overflow: hidden; border: 12px solid #db7093; background: azure;  z-index: 2;display: flex; align-items: center; justify-content: center;}
