@@ -1,7 +1,7 @@
 *                           {margin: 0;padding: 0; box-sizing: border-box; outline:none}
 html,body                   {font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 14px;}
 body                        {background-image: linear-gradient(to bottom right, #300418,#110d26,#05001b, #0d2041); background-repeat: no-repeat;}
-.main-container             {height: 100%;color: #ffffff;  -webkit-user-select: none; -ms-user-select: none;  user-select: none;} /*display: flex;flex-direction: column;*/
+.main-container             {height: 100%;color: #ffffff;   } /*display: flex;flex-direction: column; user-select: none;  -webkit-user-select: none; -ms-user-select: none;*/
 h1,h2,h3,h4,h5,h6,p         {margin: 0 ; padding: 0 ;}
 ul li                       {margin: 0; padding: 0; list-style: none;}
 
@@ -26,7 +26,7 @@ ul li                       {margin: 0; padding: 0; list-style: none;}
 .title                      {color: #b8b4b4;}
 .weather                    {height: 35px; margin-right: 5px;}
 .profile-pic                {display: flex; justify-content: center; position: relative;}
-.bg-shine                   {position: absolute; top: -17px; left: 195px; width: 200px;  height: 200px; border-radius: 100%; background: #e9f5ff;}
+.bg-shine                   {position: absolute;top: -17px;left: 129px;width: 350px;height: 350px;border-radius: 100%;background: #e9f5ff;opacity: 0.6;}
 .bg-shine::before           {
   content: "";
   position: absolute;
@@ -51,10 +51,10 @@ ul li                       {margin: 0; padding: 0; list-style: none;}
     }
 .profile-pic img            {height: 410px; z-index: 1;}
 .profile-dis                {height: 100%; display: flex; flex-direction: column; justify-content: center;}
-.profile-dis h3             {font-size: 35px !important;}
+.profile-dis h3             {font-size: 28px !important;}
 .profile-dis h1             {font-size: 45px !important;}
 .profile-dis h5             {font-size: 20px !important;}
-.profile-dis p              {font-size: 19px; font-weight: 100; margin-top: 21px;}
+.profile-dis p              {font-size: 19px; font-weight: 100; margin-top: 7px;}
 .custom-btn                 {border: 1px solid #ffffff !important; color: #ffffff !important;  border-radius: 30px !important; font-size: 16px !important;} 
 .custom-btn:hover           {background: #ffffff; color: #0f1632 !important;} 
 
@@ -100,7 +100,7 @@ ul li                       {margin: 0; padding: 0; list-style: none;}
  .card-show                  {position:absolute; background-color: rgb(0 0 0 / 40%); padding: 10px;   transition: all 1s; }
  .card-show  h4              {color:#ffcf2b;}
  .card-style:hover .card-show { transition: all .5s; transform : translateY(-152px)}
-
+.spacil-char                  {color: #f9e106; font-size: 23px;}
  .modal-title                 {color: #036185;}
 
 
@@ -229,13 +229,15 @@ ul li                       {margin: 0; padding: 0; list-style: none;}
     .dived                      {border: 0 !important;}
     .header-right > .divied     {display: none;}
     .profile-dis                {margin-top: 25px;}
-
+    .spacil-char                {font-size: 16px;}
 
     .Project-container      {margin-top: 85px;}
     .Project-profile        {top: -75px; right: 20%;}
     .glass                  {margin: 0px;}
     .Project-dis            {padding-left: 15px; padding-top: 140px;}
-    .bg-shine               { top: -27px; left: 58px !important;}
+    .bg-shine               { top: -15px; left: 12px !important; width: 300px; height: 300px;}
+    .bg-shine::before       { left: -17px !important;}
+    .bg-shine::after        { right: -17px !important;}
     .project-table td       {white-space: nowrap; font-size: 14px;} 
     .wraping                {white-space: normal !important;}
     .heading img            { height: 45px;}}
@@ -245,7 +247,9 @@ ul li                       {margin: 0; padding: 0; list-style: none;}
  }
 
  @media screen and (max-width:768px) { 
- .bg-shine                  { left: 75px;}
+ .bg-shine                  { left: -5px;}
+ .bg-shine::before          {left:1px;}
+ .bg-shine::after           {right:1px;}
  .profile-dis p {font-size: 16px !important;;}
  .profile-dis h5 { font-size: 16px !important;}
  .profile-dis h1 { font-size: 35px !important;}
