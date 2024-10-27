@@ -230,6 +230,8 @@ ul li                       {margin: 0; padding: 0; list-style: none;}
     .header-right > .divied     {display: none;}
     .profile-dis                {margin-top: 25px;}
     .spacil-char                {font-size: 16px;}
+    .popup                      {top: 68% !important;}
+
 
     .Project-container      {margin-top: 85px;}
     .Project-profile        {top: -75px; right: 20%;}
@@ -257,3 +259,77 @@ ul li                       {margin: 0; padding: 0; list-style: none;}
 .phone                      {margin-bottom: 10px;}
 .contact .phone button      { width: 259px;text-align: left;}
   }
+
+
+  .popup{
+    background-color: #ffffff;
+    width: 350px;
+    padding: 10px;
+    right: 20px;
+    top: 20%;
+    border-radius: 8px;
+    font-family: "Poppins",sans-serif;
+    display: none;
+    text-align: center;
+    position: fixed;
+    z-index: 999999;
+}
+.close-btn {font-size: 29px;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  cursor: pointer;
+  background: antiquewhite;
+  color: #d35656;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;}
+
+.popup-header {display: flex; }
+.popup-content {flex: 1;}
+.animate {
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+/*==== FADE IN RIGHT ===*/
+@-webkit-keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInRight {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+}
+.four {
+  -webkit-animation-delay: 3.5s;
+  -moz-animation-delay: 3.5s;
+  animation-delay: 3.5s;
+}
+
